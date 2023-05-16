@@ -188,3 +188,19 @@ section {
 
 }
 
+section, #home{
+ 
+  display: none;
+}
+
+section ,#services{
+ 
+    display: none;
+    margin-top: 15%;
+ }
+
+ section, #about{
+ 
+    display: none;
+
+ }

@@ -12,12 +12,12 @@
   />
 </head>
 <body>
-    
+ 
         <div class="nav">
             <ul>
-                <li><button class="navbtn" id="home" onclick="home()">Home</button></li>
-                <li><button class="navbtn" id="services" onclick="services()">Services</button></li>
-                <li><button class="navbtn" id="about" onclick="about()">About</button></li>
+                <li><button class="navbtn" onclick="home()">Home</button></li>
+                <li><button class="navbtn" onclick="services()">Services</button></li>
+                <li><button class="navbtn"  onclick="about()">About</button></li>
             </ul>
     
         </div>
@@ -73,7 +73,7 @@
        </div>
     </section>
 
-    <section>
+    <section id="about">
         <div class="about">
             <h1>About</h1>
 
@@ -83,4 +83,36 @@
         </div>
     </section>
 </body>
+<script>
+    function home() {
+    
+        document.getElementById("home").style.display = "block";
+        document.getElementById("services").style.display = "none";
+        document.getElementById("about").style.display = "none";
+     
+
+         
+
+    }
+    function services() {
+
+        document.getElementById("home").style.display = "none";
+    document.getElementById("services").style.display = "block";
+    document.getElementById("about").style.display = "none";
+  
+
+     
+
+}
+function about() {
+    
+  
+    document.getElementById("services").style.display = "none";
+    document.getElementById("home").style.display = "none";
+    document.getElementById("about").style.display = "block";
+
+     
+
+}
+</script>
 </html>
