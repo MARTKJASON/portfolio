@@ -1,10 +1,6 @@
-<<<<<<< HEAD
+
 @media  (min-width: 280px) and (max-width: 480px) {
-=======
 
-@media  (min-width: 299px) and (max-width: 480px) {
-
->>>>>>> 93fef373e6adff2925256cf8b32abdb7a0cbb24c
     
     @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300;1,700&family=Poppins:ital,wght@0,200;0,300;0,500;1,500&display=swap');
 html, body {
@@ -228,3 +224,4 @@ section ,#services{
 
  }
 
+}
