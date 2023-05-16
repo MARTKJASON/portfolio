@@ -1,4 +1,4 @@
-@media  (min-width: 375px) and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
     
     @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300;1,700&family=Poppins:ital,wght@0,200;0,300;0,500;1,500&display=swap');
 html, body {
