@@ -14,7 +14,9 @@ html, body {
 
     background-color: black;
     bottom: 0;
- 
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
    
 
 }
@@ -53,9 +55,11 @@ html, body {
 
     color: #EFD700;
 }
+.greet {
+    margin-top: -6em;
+}
 
-
-.greet h1{
+.greet > h1{
 
    
     margin-left: 120px;
@@ -63,7 +67,8 @@ html, body {
     font-size: 20px;
     font-weight: 100;
     color: #fff;
-    margin-top: 57%;
+    
+    margin-top: 71%;
     
 }
 
@@ -73,7 +78,7 @@ html, body {
     margin-left: 120px;
     font-size:25px;
     margin-bottom: -17px;
-    margin-top: 10px;
+    margin-top: 20px;
     color:#FFD600;
 
 }
@@ -131,7 +136,7 @@ html, body {
 }
 
 .image{
-    margin-top: -470px;
+    margin-top: -534px;
     margin-left: 30%;
     background-color: #EFD700;
     border-radius: 299px;
